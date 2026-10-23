@@ -114,13 +114,20 @@ print("\n")
 
 # Take birth year and current year as input and calculate the approximate age.
 
-import datetime
+# import datetime
 
-current_year = datetime.datetime.now().year
+# current_year = datetime.datetime.now().year
 
-print(current_year)
+# print(current_year)
 
-birth_year=int(input("Enter your birth year: "))
+# birth_year=int(input("Enter your birth year: "))
 
-print("your age",current_year-birth_year)
+# print("your age",current_year-birth_year)
 
+
+
+length=int(input("Enter length: "))
+breadth=int(input("Enter breadth: "))
+
+area=length*breadth
+print(area)
