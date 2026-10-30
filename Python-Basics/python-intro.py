@@ -124,10 +124,31 @@ print("\n")
 
 # print("your age",current_year-birth_year)
 
+# Q13. Rectangle calculator
+
+# Take length and width as inputs. Print the rectangle's area and perimeter.
 
 
-length=int(input("Enter length: "))
-breadth=int(input("Enter breadth: "))
+# length=int(input("Enter length: "))
+# breadth=int(input("Enter breadth: "))
 
-area=length*breadth
-print(area)
+# area=length*breadth
+# print(area)
+
+
+''' Question 14 . Average marks
+
+Input marks in five subjects and calculate their average. '''
+
+s=int(input("enter the first number"))
+d=int(input("enter the second number"))
+f=int(input("Enter the last number"))
+g=int(input("enter the 4 the number"))
+h=int(input("enter the 5 the number"))
+
+total=s+d+f+g+h
+
+avg=total/5
+print("avg of 5 subject marks is :" ,avg)
+
+
